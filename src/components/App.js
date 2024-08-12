@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 const App = () => {
   const [name,setname] = useState("");
-  function renderName(){
+  function renderName(e){
     setname(e.target.value);
   }
 
